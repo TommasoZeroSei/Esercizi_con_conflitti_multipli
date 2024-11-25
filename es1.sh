@@ -51,7 +51,7 @@ git add file3.txt
 git commit -m "Merge hotfixF5 -> F5"
 git branch -d hotfixF5
 
-git checkout master
+git checkout main
 git merge F5 -m "Merge F5 -> master"
 git branch -d F5
 
